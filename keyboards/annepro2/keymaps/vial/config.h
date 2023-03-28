@@ -19,7 +19,7 @@
 // Obins stock firmware has something similar to this already enabled, but disabled by default in QMK
 #define PERMISSIVE_HOLD
 
-#define VIAL_KEYBOARD_UID {0x62, 0x1D, 0xA7, 0x0A, 0x38, 0xAF, 0xDD, 0x60}
+x
 #define VIAL_UNLOCK_COMBO_ROWS { 0, 2 }
 #define VIAL_UNLOCK_COMBO_COLS { 0, 12 }
 
