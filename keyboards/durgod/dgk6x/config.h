@@ -18,6 +18,9 @@
 
 #include "config_common.h"
 
+
+#define TAPPING_TOGGLE 2
+
 #define WAIT_US_TIMER           GPTD3
 
 /* COL2ROW, ROW2COL*/
@@ -29,7 +32,7 @@
 #define DYNAMIC_KEYMAP_EEPROM_MAX_ADDR  4095
 
 // Increase VIA layer count
-#define DYNAMIC_KEYMAP_LAYER_COUNT 16
+#define DYNAMIC_KEYMAP_LAYER_COUNT 6
 
 /* Debounce reduces chatter (unintended double-presses) - set 0 if debouncing is not needed */
 #define DEBOUNCE 5

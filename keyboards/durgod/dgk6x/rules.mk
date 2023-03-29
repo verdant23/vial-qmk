@@ -7,13 +7,13 @@ BOARD = DURGOD_STM32_F070
 BOOTLOADER = stm32-dfu
 
 # Do not put the microcontroller into power saving mode
-NO_SUSPEND_POWER_DOWN = yes
+NO_SUSPEND_POWER_DOWN = no
 
 # Build Options
 #   change yes to no to disable
 #
 BOOTMAGIC_ENABLE = yes      # Enable Bootmagic Lite
-MOUSEKEY_ENABLE = no        # Mouse keys
+MOUSEKEY_ENABLE = yes        # Mouse keys
 EXTRAKEY_ENABLE = yes       # Audio control and System control
 CONSOLE_ENABLE = no         # Console for debug
 COMMAND_ENABLE = no         # Commands for debug and configuration
