@@ -19,7 +19,7 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 
 #include "config_common.h"
 
-#define DYNAMIC_LAYER_COUNT 3
+
 
 /* USB Device descriptor parameter */
 #define VIAL_KEYBOARD_UID {0x4E, 0xB5, 0x01, 0xDE, 0xA7, 0xD9, 0x58, 0x04}
